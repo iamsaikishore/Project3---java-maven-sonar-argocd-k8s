@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: sprint-boot-app
-        image: iamsaikishore/spring-boot-app:1
+        image: iamsaikishore/spring-boot-app:replaceImageTag
         ports:
         - containerPort: 8080
