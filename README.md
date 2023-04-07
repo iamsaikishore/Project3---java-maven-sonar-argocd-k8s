@@ -500,7 +500,7 @@ git remote add origin <your-github-repo-url>
 git push origin master
 ```
 
-![Screenshot (204)](https://user-images.githubusercontent.com/129657174/230661060-e18a2289-f10a-48f1-98b5-a104535b3451.png)
+![Screenshot (228)](https://user-images.githubusercontent.com/129657174/230668342-f1cf926f-1611-4373-8543-39572f14c485.png)
    
 #### Create a new Jenkins pipeline job:
 - In Jenkins, create a new pipeline job and configure it with the Git repository URL for the Java application.
