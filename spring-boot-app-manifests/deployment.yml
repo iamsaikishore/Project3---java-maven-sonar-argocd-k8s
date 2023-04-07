@@ -1,21 +1,21 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: sprint-boot-app
+  name: spring-boot-app
   labels:
-    app: sprint-boot-app
+    app: spring-boot-app
 spec:
   replicas: 2
   selector:
     matchLabels:
-      app: sprint-boot-app
+      app: spring-boot-app
   template:
     metadata:
       labels:
-        app: sprint-boot-app
+        app: spring-boot-app
     spec:
       containers:
-      - name: sprint-boot-app
-        image: iamsaikishore/spring-boot-app:6
+      - name: spring-boot-app
+        image: iamsaikishore/spring-boot-app:replaceImageTag
         ports:
         - containerPort: 8080
