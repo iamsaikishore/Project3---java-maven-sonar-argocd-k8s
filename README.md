@@ -83,11 +83,11 @@ sudo wget -O /etc/yum.repos.d/jenkins.repo \
 sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io-2023.key
 sudo yum upgrade -y
 # Add required dependencies for the jenkins package
-sudo yum install Jenkins -y
+sudo yum install jenkins -y
 jenkins --version
 
-sudo systemctl enable Jenkins.service
-sudo systemctl start Jenkins.service
+sudo systemctl enable jenkins.service
+sudo systemctl start jenkins.service
 ```
 
 Grant Jenkins user and ec2-user user permission to docker deamon.
